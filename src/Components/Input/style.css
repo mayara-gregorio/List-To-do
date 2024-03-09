@@ -1,0 +1,11 @@
+input{
+    height: 40px;
+    width: 300px;
+    min-width: 1%;
+    padding: 0px 20px;
+    border-radius: 8px;
+    border: solid  rgb(189, 43, 116);
+}
+input::after{
+    border: none;
+}

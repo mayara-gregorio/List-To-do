@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}                    
+
+#addTodo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h3{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  border: solid;
+
+}
+
+#showTodo{
+  display: flex;
+  flex-direction: row;
+  border: solid rgb(189, 43, 116);
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  max-width:700; 
+  min-width: 100px;
+  border-radius: 8px;
+}
